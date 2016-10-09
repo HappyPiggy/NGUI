@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9A3B01FF-3EF3-1FD3-FBCE-22B9A51F0DCC}") = "NGUI_Demos", "Assembly-CSharp.csproj", "{FCF1C789-6CBA-E018-D37C-3010B31172F8}"
+EndProject
+Project("{9A3B01FF-3EF3-1FD3-FBCE-22B9A51F0DCC}") = "NGUI_Demos", "Assembly-CSharp-Editor.csproj", "{EC80BF35-9B87-1959-5AB7-DEEAF9A5B3CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCF1C789-6CBA-E018-D37C-3010B31172F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF1C789-6CBA-E018-D37C-3010B31172F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF1C789-6CBA-E018-D37C-3010B31172F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF1C789-6CBA-E018-D37C-3010B31172F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC80BF35-9B87-1959-5AB7-DEEAF9A5B3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC80BF35-9B87-1959-5AB7-DEEAF9A5B3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC80BF35-9B87-1959-5AB7-DEEAF9A5B3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC80BF35-9B87-1959-5AB7-DEEAF9A5B3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
