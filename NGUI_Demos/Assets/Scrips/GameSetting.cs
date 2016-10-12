@@ -24,6 +24,10 @@ public class GameSetting : MonoBehaviour {
     public ControlType type = ControlType.KEYBOARD;
     public bool isFull = true;
 
+    public TweenPosition startPanel;
+    public TweenPosition optionPanel;
+
+
 
 
     public void OnVolumeChanged()
@@ -71,5 +75,18 @@ public class GameSetting : MonoBehaviour {
     {
         //Debug.Log("test4");
         isFull = UIToggle.current.value;
+    }
+
+    public void OnSettingButtonClick()
+    {
+        startPanel.PlayForward();
+        optionPanel.PlayForward();
+    }
+
+    public void OnCompeleteSettingButtonClick()
+    {
+       // Debug.Log("123");
+        startPanel.PlayReverse();
+        optionPanel.PlayReverse();
     }
 }
