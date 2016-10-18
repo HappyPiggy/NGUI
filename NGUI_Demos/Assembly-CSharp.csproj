@@ -71,6 +71,7 @@
      <Compile Include="Assets\NGUI\Examples\Scripts\Other\PanWithMouse.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\Other\PlayIdleAnimations.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\Other\SetColorOnSelection.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\ShaderQuality.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\Other\Spin.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\Other\SpinWithMouse.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\Other\Tutorial5.cs" />
@@ -182,7 +183,7 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Scrips\GameSetting.cs" />
      <Compile Include="Assets\Scrips\InputLimit.cs" />
-     <Compile Include="Assets\submit.cs" />
+     <Compile Include="Assets\Scrips\submit.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.8.2.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
