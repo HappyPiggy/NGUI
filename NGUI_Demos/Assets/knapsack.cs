@@ -3,6 +3,18 @@ using System.Collections;
 
 public class knapsack :UIDragDropItem {
 
+    public UISprite sprite;
+    public UILabel label;
+
+    private int number=1;
+
+    public void AddNumber(int nb)
+    {
+        number += nb;
+        label.text = number + "";
+        print(number);
+    }
+
     protected override void OnDragDropRelease(GameObject surface)
     {
         base.OnDragDropRelease(surface);
