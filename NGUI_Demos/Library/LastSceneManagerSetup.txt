@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/PackageSystem.unity
+- path: Assets/Scenes/DamageAndFollow.unity
   isLoaded: 1
   isActive: 1
